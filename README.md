@@ -60,8 +60,8 @@ In this research, two distinct model training methods were employed:
 A total of **12 models** were created, distributed between the two training methods, using different datasets:
 
 - **Normal Training (6 models)**
-- MNIST
-- CIFAR-10  
+  - MNIST
+  - CIFAR-10  
   - CIFAR-100  
   - Fashion-MNIST  
   - Caltech101  
