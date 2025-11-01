@@ -1,4 +1,7 @@
-# Data-Quality-Filter-A-New-Approach-For-Edge-Intelligence
+# Project: 1Data-Quality-Filter-A-New-Approach-For-Edge-Intelligence
+
+# Article: Federated Learning Performance Evaluation with Entropy-Based Data Quality Analysis Adoption
+
 Algorithms used in training the article's datasets, obtaining information for the Enbase approach.
 
 # Enbase: Algorithm Using Entropy for Data Filtering
