@@ -1,4 +1,4 @@
-# Project: 1Data-Quality-Filter-A-New-Approach-For-Edge-Intelligence
+# Project: Data-Quality-Filter-A-New-Approach-For-Edge-Intelligence
 
 # Article: Federated Learning Performance Evaluation with Entropy-Based Data Quality Analysis Adoption
 
