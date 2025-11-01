@@ -19,7 +19,7 @@ This algorithm stands out for its ability to **filter model data** by calculatin
 - **Reduced complexity**: less information is needed to generate effective results.  
 - **Simplification of the analysis and interpretation process**.
 
-- ## ⚙️ Configurations Used
+## ⚙️ Configurations Used
 During the experiments conducted in the research, the following configurations were used:   
 - **Language**: Python 3.x
 - **Main libraries**: NumPy, PyTorch/TensorFlow
@@ -81,4 +81,16 @@ A total of **12 models** were created, distributed between the two training meth
 Each dataset was trained in **two versions** (Normal and EnBaSe), enabling direct comparison of the results.
 
 ---
+
+## Resuls Achieved
+
+| **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
+|-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
+| T4 (Normal Training)    | 0.8172    | 0.9690        | 0.9264         | 0.7439            | 0.9831         | 0.9876       |
+| A100 (Normal Training)  | 0.8609    | 0.9728        | 0.9296         | 0.9482            | 0.9940         | 0.9948       |
+| T4 (Enbase Training)    | 0.9997    | 0.9346        | 0.9350         | 0.9942            | 0.7736         | 0.9543       |
+| A100 (Enbase Training)  | 0.9997    | 0.9399        | 0.9472         | 0.9941            | 0.6100         | 0.9474       |
+
+**Tabela 1.** Average Accuracy Comparison
+
 📌 This repository aims to present the concepts, functioning, and potential applications of **EnBaSe** in the context of data filtering and optimization.
