@@ -44,7 +44,7 @@ Mainly applied in image classification tasks.
 
 ---
 
-## 🏋️‍♂️ Training Methods: Normal Training vs. Enbase Training
+## 🏋️‍♂️ Training Methods: Normal Training vs. EnBaSe Training
 In this research, two distinct model training methods were employed:  
 
 ### 🔹 Normal Training
