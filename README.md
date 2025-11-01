@@ -4,7 +4,7 @@
 
 Algorithms used in training the article's datasets, obtaining information for the Enbase approach.
 
-# Enbase: Algorithm Using Entropy for Data Filtering
+# EnBaSe (Entropy-Based Selection): Algorithm Using Entropy for Data Filtering
 
 **EnBaSe** is the algorithm that served as the basis for this research, incorporating the use of **entropy** in its training.  
 
