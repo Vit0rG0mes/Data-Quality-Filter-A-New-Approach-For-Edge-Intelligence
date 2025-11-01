@@ -84,7 +84,27 @@ Each dataset was trained in **two versions** (Normal and EnBaSe), enabling direc
 
 ## Results Achieved
 
-- Accuracy Average Results, using both T4 and A100 GPUs, in the two proposed scenarios: Normal Training and EnBaSe Training.
+- Average **Execution Time Results**, using both T4 and A100 GPUs, in the two proposed scenarios: **Normal Training** and **EnBaSe Training**.
+
+| **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
+|-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
+| T4 (Normal Training)    | 1325 secs | 634 secs      | 604 secs       | 1341 secs         | 309 secs       | 576 secs     |
+| A100 (Normal Training)  | 247 secs  | 535 secs      | 396 secs       | 247 secs          | 119 secs       | 121 secs     |
+| T4 (Enbase Training)    | 252 secs  | 433 secs      | 431 secs       | 233 secs          | 172 secs       | 415 secs     |
+| A100 (Enbase Training)  | 56 secs   | 71 secs       | 71 secs        | 60 secs           | 66 secs        | 164 secs     |
+| **Improvement (%) T4**  | 80.94%    | 31.69%        | 28.66%         | 82.61%            | 44.34%         | 27.95%       |
+| **Improvement (%) A100**| 76.39%    | 86.66%        | 82.02%         | 75.73%            | 44.54%         | -34.54%      |
+
+- Average **Inception Score** Results, using both T4 and A100 GPUs, in the two proposed scenarios: **Normal Training** and **EnBaSe Training**.
+
+| **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
+|-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
+| T4 (Normal Training)    | 2.2964    | 2.4145        | 2.6840         | 1.7439            | 1.4161         | 1.8362       |
+| A100 (Normal Training)  | 2.2510    | 2.1331        | 2.3631         | 2.2286            | 1.9001         | 1.5420       |
+| T4 (Enbase Training)    | 1.6274    | 2.1157        | 2.2008         | 2.4814            | 1.9829         | 1.8164       |
+| A100 (Enbase Training)  | 1.6691    | 2.1305        | 2.1459         | 2.1459            | 1.9620         | 1.7830       |
+
+- Average **Accuracy** Results, using both T4 and A100 GPUs, in the two proposed scenarios: **Normal Training** and **EnBaSe Training**.
 
 | **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
 |-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
@@ -93,6 +113,13 @@ Each dataset was trained in **two versions** (Normal and EnBaSe), enabling direc
 | T4 (Enbase Training)    | 0.9997    | 0.9346        | 0.9350         | 0.9942            | 0.7736         | 0.9543       |
 | A100 (Enbase Training)  | 0.9997    | 0.9399        | 0.9472         | 0.9941            | 0.6100         | 0.9474       |
 
-**Tabela 1.** Average Accuracy Comparison
+- Average **Energy Consumption** Results, using both T4 and A100 GPUs, in the two proposed scenarios: **Normal Training** and **EnBaSe Training**.
+
+| **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
+|-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
+| T4 (Normal Training)    | 25.76 Wh  | 12.32 Wh      | 11.74 Wh       | 26.07 Wh          | 6.00 Wh        | 11.20 Wh     |
+| A100 (Normal Training)  | 27.44 Wh  | 59.44 Wh      | 44.00 Wh       | 27.44 Wh          | 13.22 Wh       | 13.44 Wh     |
+| T4 (Enbase Training)    | 4.90 Wh   | 8.41 Wh       | 8.38 Wh        | 4.53 Wh           | 3.34 Wh        | 8.06 Wh      |
+| A100 (Enbase Training)  | 6.22 Wh   | 7.88 Wh       | 7.88 Wh        | 6.66 Wh           | 7.33 Wh        | 18.22 Wh     |
 
 📌 This repository aims to present the concepts, functioning, and potential applications of **EnBaSe** in the context of data filtering and optimization.
