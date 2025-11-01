@@ -24,7 +24,7 @@ During the experiments conducted in the research, the following configurations w
 - **Language**: Python 3.x
 - **Main libraries**: NumPy, PyTorch/TensorFlow
 - **Environment**: Jupyter Notebook / Google Colab
-- **Hardware**: NVIDIA GPU (CUDA enabled) for training optimization - using Tesla4 and A100 GPUs.
+- **Hardware**: NVIDIA GPU (CUDA enabled) for training optimization - using Tesla4 and A100 GPU.
 - **Main hyperparameters**:
   - Learning rate: *0.001*
   - Batch size: *64*
