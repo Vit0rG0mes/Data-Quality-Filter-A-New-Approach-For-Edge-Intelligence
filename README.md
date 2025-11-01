@@ -82,7 +82,9 @@ Each dataset was trained in **two versions** (Normal and EnBaSe), enabling direc
 
 ---
 
-## Resuls Achieved
+## Results Achieved
+
+- Accuracy Average Results, using both T4 and A100 GPUs, in the two proposed scenarios: Normal Training and EnBaSe Training.
 
 | **GPU**                | **MNIST** | **CIFAR-10** | **CIFAR-100** | **FASHION-MNIST** | **Caltech101** | **EuroSAT** |
 |-------------------------|-----------|---------------|----------------|-------------------|----------------|--------------|
