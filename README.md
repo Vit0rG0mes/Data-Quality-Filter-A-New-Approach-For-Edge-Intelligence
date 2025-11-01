@@ -6,12 +6,12 @@ Algorithms used in training the article's datasets, obtaining information for th
 
 # Enbase: Algorithm Using Entropy for Data Filtering
 
-**Enbase** is the algorithm that served as the basis for this research, incorporating the use of **entropy** in its training.  
+**EnBaSe** is the algorithm that served as the basis for this research, incorporating the use of **entropy** in its training.  
 
 This algorithm stands out for its ability to **filter model data** by calculating entropy, a measure that quantifies the uncertainty associated with a set of information.  
 
 ## How it works
-- Enbase calculates the entropy of the data and establishes an **average uncertainty**.  
+- EnBaSe calculates the entropy of the data and establishes an **average uncertainty**.  
 - This allows it to **identify which sets of information are most reliable and relevant** for analysis.  
 
 ## Benefits
@@ -34,7 +34,7 @@ During the experiments conducted in the research, the following configurations w
 ---
 
 ## 🧮 Algorithms Used in Training
-**Enbase** was based on some recurrent neural networks such as:
+**EnBaSe** was based on some recurrent neural networks such as:
 
 - **Convolutional Neural Networks (CNNs)**
 Mainly applied in image classification tasks.  
@@ -52,9 +52,9 @@ In this research, two distinct model training methods were employed:
 - Uses all data from the dataset without additional filtering.
 - Maintains **complete data variability**, but may include noise and samples with high uncertainty.  
 
-### 🔹 Enbase Training
+### 🔹 EnBaSe Training
 - Training based on **entropy** filtering.  
-- The **Enbase** algorithm selects only data with the **lowest level of uncertainty**.  
+- The **EnBaSe** algorithm selects only data with the **lowest level of uncertainty**.  
 - Results in more **optimized, consistent, and robust** models in the face of noise.  
 
 ---
@@ -70,7 +70,7 @@ A total of **12 models** were created, distributed between the two training meth
   - Caltech101  
   - EuroSAT  
 
-- **Enbase Training (6 models)**  
+- **EnBaSe Training (6 models)**  
   - MNIST  
   - CIFAR-10  
   - CIFAR-100  
@@ -78,7 +78,7 @@ A total of **12 models** were created, distributed between the two training meth
   - Caltech101  
   - EuroSAT
 
-Each dataset was trained in **two versions** (Normal and Enbase), enabling direct comparison of the results.
+Each dataset was trained in **two versions** (Normal and EnBaSe), enabling direct comparison of the results.
 
 ---
-📌 This repository aims to present the concepts, functioning, and potential applications of **Enbase** in the context of data filtering and optimization.
+📌 This repository aims to present the concepts, functioning, and potential applications of **EnBaSe** in the context of data filtering and optimization.
